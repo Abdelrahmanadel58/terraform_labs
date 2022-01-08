@@ -1,6 +1,6 @@
 # public instance
 resource "aws_instance" "ubuntu" {
-  ami           = "ami-060867d58b989c6be" 
+  ami           = "ami-09fa0d72d00d79024" 
   instance_type = var.instance-ec2-type
   subnet_id = var.subnet-id-ec2
 
